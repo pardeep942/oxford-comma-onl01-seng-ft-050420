@@ -7,7 +7,7 @@ def oxford_comma(array)
       lastStr = array.pop
       
       array.join(", ") << ", and #{lastStr}"
-      #return "#{array.join(", ")}, and #{lastStr}"
+      
    end
 end
 
